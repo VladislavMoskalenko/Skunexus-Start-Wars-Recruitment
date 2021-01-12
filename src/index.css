@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  background-color: #f0f0f0;
+  min-height: 100vh;
+}
+
+.pageTitle {
+  margin-top: 1em;
+}
+
+.App {
+  max-width: 1600px;
+  margin: auto;
+}

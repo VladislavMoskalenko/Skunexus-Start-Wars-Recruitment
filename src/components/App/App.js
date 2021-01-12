@@ -1,14 +1,13 @@
-import './App.css';
+import "./App.css";
 
-import Planets from '../Planets';
+import Router from "../../routers";
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Star Wars Planets</h1>
-      <Planets />
+      <Router />
     </div>
   );
-}
+};
 
 export default App;
